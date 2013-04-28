@@ -1,9 +1,8 @@
+# EmbedLogic/lib/embed_logic/core_ext.rb
+
 String.class_eval do
   def embedded
-    linkcode=self.dup
-#    linkcode=self.match(/(?:http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/)
-#linkcode="http://www.youtube.com/embed/" + (self.match(/(?:http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/))[1]+ "?feature=player_detailpage"
-#    newlink="http://www.youtube.com/embed/" + firstpart[1] + "?feature=player_detailpage"
+    linkcode="http://www.youtube.com/embed/" + (self.match(/(?:http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/))[1]+ "?feature=player_detailpage"
+    linkcode
   end
-  linkcode.class
 end
