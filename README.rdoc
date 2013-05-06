@@ -1,3 +1,0 @@
-= EmbedLogic by Eric E Jones
-
-This gem will update a link to use embedding code
