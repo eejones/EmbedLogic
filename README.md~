@@ -1,7 +1,7 @@
 EmbedLogic
 =========
 
-This gem will update a link to use embedding code for various popular upload sites. It allows the website's url to be converted to its embedded url in A Ruby gem engine that allows you to add customizable business rules to any ActiveRecord model. Rules integrates with ActiveAdmin to make it trivial to allow admin users to create rules on the fly for your models.
+This gem will update a link to use embedding code for various popular upload sites. It allows the website's url to be converted to its embedded url
 
 Installation
 ------------
