@@ -25,12 +25,12 @@ For example, it can just be added to <iframe> and work out of the box:
 ```
 This causes this entry:
 
-![ActiveAdmin form for EmbedLogic](https://github.com/eejones/EmbedLogic/blob/master/test/dummy/app/assets/images/preupdate.png)
+![EmbedLogic preupdate](/test/dummy/app/assets/images/preupdate.png)
 
 
 To become an embedded image:
 
-![ActiveAdmin form for EmbedLogic](https://github.com/eejones/EmbedLogic/blob/master/test/dummy/app/assets/images/postupdate.png)
+![EmbedLogic postupdate](/test/dummy/app/assets/images/postupdate.png)
 
 
 Background
