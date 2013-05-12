@@ -35,7 +35,7 @@ To become an embedded image:
 
 Background
 ------------
-The logic uses a REGEX for whatever upload site is being used:
+The logic uses a REGEX for whatever video site is being used:
 ```ruby
 String.class_eval do
   def embedded
@@ -57,11 +57,3 @@ String.class_eval do
   end
 end
 ```
-
-Default Constants
-------------
-TODO
-
-Default Evaluators
-------------
-TODO

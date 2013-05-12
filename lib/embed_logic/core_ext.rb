@@ -21,6 +21,9 @@ String.class_eval do
     #screen.yahoo
     elsif oldcode =~ /(?:screen\.yahoo\.com)/
       newcode= oldcode + "?format=embed&player_autoplay=false"
+    #veoh
+    elsif oldcode =~ /(?:veoh\.com)/
+      newcode = "http://www.veoh.com/swf/webplayer/WebPlayer.swf?version=AFrontend.5.7.0.1396&permalinkId=" + (oldcode.match(/(?:http:\/\/)?(?:www\.)?(?:veoh\.com)\/(?:watch)\/(.*)/))[1] + "&player=videodetailsembedded&videoAutoPlay=0&id=anonymous"
     end
     newcode
   end

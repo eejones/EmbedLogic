@@ -1,7 +1,7 @@
 EmbedLogic
 =========
 
-This gem will update a link to use embedding code for various popular upload sites. It allows the website's url to be converted to its embedded url. It can currently convert to embedded code for 6 of the top 8 most visited video websites(Youtube, Vimeo, Dailymotion, Metacafe, MySpace and Yahoo! Screen- missing NetFlix and Hulu because of security issues)
+This gem will update a link to use embedding code for various popular upload sites. It allows the website's url to be converted to its embedded url. It can currently convert to embedded code for 7 of the top 9 most visited hosted video websites(Youtube, Vimeo, Dailymotion, Metacafe, MySpace Yahoo! Screen and Veoh- missing NetFlix and Hulu because of security issues)
 
 Installation
 ------------
